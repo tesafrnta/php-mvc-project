@@ -13,8 +13,8 @@ spl_autoload_register(function($class) {
 });
 
 // Load core files
-require_once __DIR__ . '../App/Core/Database.php';
-require_once __DIR__ . '../App/Core/Router.php';
+require_once __DIR__ . '/../App/Core/Database.php';
+require_once __DIR__ . '/../App/Core/Router.php';
 
 // Inisialisasi Router
 $router = new Router();
