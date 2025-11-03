@@ -27,3 +27,4 @@ $router->post('/users', 'UserController@store');
 
 // Resolve request
 $router->resolve();
+
