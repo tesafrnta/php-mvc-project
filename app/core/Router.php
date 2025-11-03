@@ -44,7 +44,7 @@ class Router {
                 return call_user_func_array([$controllerInstance, $method], $params);
             }
         }
-        
+
         return call_user_func_array($callback, $params);
     }
 }
