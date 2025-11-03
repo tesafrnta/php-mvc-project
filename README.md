@@ -1,15 +1,12 @@
-# Proyek project-mvc
+Proyek project-mvc
+Cara Pakai di Laragon
+Klik kanan icon Laragon → Menu → www → project-mvc
 
-## Cara Pakai di Laragon
+Atau buat Pretty URL (jika langkah 1 gagal):
 
-1. **Klik kanan icon Laragon → Menu → www → project-mvc**
-
-2. **Atau buat Pretty URL:**
-- - Klik kanan icon Laragon
-- - Menu → Apache → sites-enabled
-- - Buat file project-mvc.conf:
-
-```bash
+Klik kanan icon Laragon
+Menu → Apache → sites-enabled
+Buat file project-mvc.conf:
 <VirtualHost *:80>
        DocumentRoot "C:/laragon/www/project-mvc/public"
        ServerName project-mvc.test
@@ -19,11 +16,8 @@
            Require all granted
        </Directory>
    </VirtualHost>
-```
+Restart Apache dari Laragon
 
-3. **Restart Apache dari Laragon**
+Akses:
 
-4. **Akses:**
-```bash
    http://project-mvc.test
-```
